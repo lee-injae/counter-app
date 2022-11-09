@@ -43,11 +43,16 @@ button {
     background: plum;
     display: block;
     margin: 0 auto;
+    box-shadow: 0 4px #999;
 }
 
 #save-btn {
     background: skyblue;
     display: block;
     margin: 20px auto;
+    box-shadow: 0 4px #999;
 }
 
+button:active {
+  transform: translateY(4px);
+}
